@@ -1,9 +1,14 @@
 # A 2D simulator to help beginning Java programmers learn to program for FTC Robotics.
 
-New:  CenterStage field image added. Physics set up for backdrops and truss legs so that they serve as barriers to 
-robot motion.
+New:  
 
-Also: A Kiwi-Drive robot configuration with three omni wheels arranged around a 16 inch diameter circular chassis.
+SparFunOTOS Odometry Sensor added. It is included in the robot configurations with Mecanum drivetrains,
+but can be easily added to other drivetrains.
+
+OctoQuad Encoder Sensor added. It is included in the Mecanum and XDrive robot configurations, with channels
+assigned as follows: 0->back left drive motor; 1->front left drive motor; 2->front right drive motor;
+3->back right motor; 4->left deadwheel encoder; 5->right deadwheel encoder; 6-> perpendicular deadwheel
+encoder. You can still use the traditional way of working with the encoders, as well.
 
 Want to use virtual_robot to try out AcmeRobotics RoadRunner? Refer to the 
 [Road-Runner-Quickstart-Instructions](Road-Runner-Quickstart-Instructions.pdf) pdf.
@@ -12,7 +17,7 @@ Includes Programming Board configuration to serve as a companion to the book "Le
 PDF can be [downloaded for free](https://github.com/alan412/LearnJavaForFTC) or you can purchase the paperback on
 [Amazon](https://www.amazon.com/dp/B08DBVKXLZ).
     
-![](/readme_image.JPG)
+![](/readme_image.jpg)
 
 This is a JavaFX application developed using the (free) IntelliJ IDEA Community Edition IDE. The repository can be downloaded
 and unzipped, then opened with IntelliJ. It can also be run using Android Studio 

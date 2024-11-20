@@ -32,7 +32,7 @@ public class Config {
     /**
      * The image object for the field.
      */
-    public static final Image BACKGROUND = new Image("/virtual_robot/assets/centerstage648.bmp");
+    public static final Image BACKGROUND = new Image("/virtual_robot/assets/into_the_deep648.bmp");
 
     /**
      * If true, Virtual Gamepad joysticks and triggers will stay in the position where they were
@@ -47,7 +47,7 @@ public class Config {
      * Define the game.  This must match the forGame attribute of the GameElementConfig annotation
      * on the VirtualGameElement implementations.
      */
-    public static final Game GAME = new CenterStage();
+    public static final Game GAME = new NoGame();
 
     /**
      * Friction coefficient between field and robot wheels. A very high value will minimize the effect
